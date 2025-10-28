@@ -8,20 +8,54 @@
 </head>
 <body>
   <header>
-    <h1>🤖 Curumin - O Robô Cultural</h1>
-    <p>Descubra lendas e curiosidades do Amazonas!</p>
+    <h1>🤖 Curumin - O Robô Cultural do Amazonas</h1>
+    <p>Unindo tecnologia, reciclagem e cultura regional 🌿</p>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#materiais">Materiais</a>
+      <a href="#montagem">Montagem</a>
+      <a href="#lendas">Lendas</a>
+    </nav>
   </header>
 
   <main>
-    <div class="robot">
-      <img src="https://cdn-icons-png.flaticon.com/512/4712/4712034.png" alt="Rosto do Curumin">
-      <p id="fala">Olá! Diga “Curumin, conte uma lenda!” 🌿</p>
+    <section id="sobre" class="secao">
+      <h2>💡 Sobre o Projeto</h2>
+      <p>O Curumin é um robô cultural desenvolvido com materiais recicláveis e controlado por um microcontrolador. Ele interage por comandos de voz e conta lendas e curiosidades sobre o Amazonas, levando conhecimento de forma divertida e educativa.</p>
+      <img src="https://cdn-icons-png.flaticon.com/512/4712/4712034.png" alt="Curumin Robô">
+    </section>
+
+    <section id="materiais" class="secao">
+      <h2>🔩 Materiais Utilizados</h2>
+      <ul>
+        <li>Microcontrolador (ESP32 ou S32)</li>
+        <li>Microfone e alto-falante</li>
+        <li>Sensores e LEDs para expressões</li>
+        <li>Materiais recicláveis (garrafas PET, papelão, tampinhas)</li>
+        <li>Fios, resistores e componentes eletrônicos</li>
+      </ul>
+    </section>
+
+    <section id="montagem" class="secao">
+      <h2>🧠 Etapas de Montagem</h2>
+      <ol>
+        <li>Planejamento e desenho do protótipo</li>
+        <li>Montagem da estrutura com materiais recicláveis</li>
+        <li>Conexão dos componentes eletrônicos</li>
+        <li>Programação do robô para responder por voz</li>
+        <li>Testes e integração com o sistema interativo</li>
+      </ol>
+    </section>
+
+    <section id="lendas" class="secao">
+      <h2>📖 Lendas Amazônicas</h2>
+      <p id="fala">Clique no botão para ouvir uma lenda 🌱</p>
       <button onclick="falarLenda()">Ouvir Lenda 🎧</button>
-    </div>
+    </section>
   </main>
 
   <footer>
-    <p>Feito com 💚 por nossa equipe</p>
+    <p>Projeto desenvolvido por nossa equipe 💚 | 2025</p>
   </footer>
 
   <script src="script.js"></script>
