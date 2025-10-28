@@ -1,0 +1,47 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e0f5e9;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #8fd19e;
+  padding: 20px;
+  color: #fff;
+  border-radius: 0 0 20px 20px;
+}
+
+.robot {
+  margin-top: 40px;
+}
+
+.robot img {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+button {
+  background-color: #7ed957;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #5ac84c;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 14px;
+  color: #555;
+}
